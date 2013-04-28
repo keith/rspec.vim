@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *_spec.rb set filetype=rspec
+au BufReadPost,BufNewFile *_spec.rb set filetype=rspec
