@@ -5,7 +5,7 @@
 "
 
 runtime! syntax/ruby.vim
-unlet b:current_syntax
+unlet! b:current_syntax
 
 syntax keyword rspecGroupMethods context describe example it its let it_should_behave_like shared_examples_for subject it_behaves_like pending specify When Then Given Invariant
 highlight link rspecGroupMethods Type
