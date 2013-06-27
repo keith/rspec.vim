@@ -26,7 +26,7 @@ git clone https://github.com/Keithbsmiley/rspec.vim.git
 By default this syntax is used with all `*_spec.rb` files. If you don't follow this norm use something like:
 
 ```
-autocmd BufReadPost,BufNewFile *_foo.rb set filetype=rspec
+autocmd BufReadPost,BufNewFile *_foo.rb set syntax=rspec
 ```
 
 In your `~/.vimrc`
