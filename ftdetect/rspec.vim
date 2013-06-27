@@ -1,2 +1,2 @@
-autocmd BufReadPost,BufNewFile *_spec.rb set filetype=rspec
-autocmd FileType rspec setlocal commentstring=#\ %s
+autocmd BufReadPost,BufNewFile *_spec.rb set syntax=rspec
+autocmd BufReadPost,BufNewFile *_spec.rb setlocal commentstring=#\ %s
