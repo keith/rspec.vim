@@ -22,11 +22,11 @@ highlight link rspecMockMethods Function
 syntax keyword rspecKeywords should should_not should_not_receive should_receive
 highlight link rspecKeywords Constant
 
-syntax keyword rspecMatchers be change eql equal exist expect allow receive have have_at_least have_at_most have_exactly include match matcher raise_error raise_exception respond_to satisfy throw_symbol to to_not not_to when wrap_expectation
+syntax keyword rspecMatchers be change eql equal exist expect allow allow_any_instance_of receive have have_at_least have_at_most have_exactly include match matcher raise_error raise_exception respond_to satisfy throw_symbol to to_not not_to when wrap_expectation
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 highlight link rspecMatchers Function
 
-syntax keyword rspecMessageExpectation advise any_args any_number_of_times anything at_least at_most exactly expected_messages_received generate_error hash_including hash_not_including ignoring_args instance_of matches_at_least_count matches_at_most_count matches_exact_count matches_name_but_not_args negative_expectation_for never no_args once ordered similar_messages times twice verify_messages_received with 
+syntax keyword rspecMessageExpectation advise any_args any_number_of_times anything at_least at_most exactly expected_messages_received generate_error hash_including hash_not_including ignoring_args instance_of matches_at_least_count matches_at_most_count matches_exact_count matches_name_but_not_args negative_expectation_for never no_args once ordered similar_messages times twice verify_messages_received with
 highlight link rspecMessageExpectation Function
 
 let b:current_syntax = 'rspec'
