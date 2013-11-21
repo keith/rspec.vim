@@ -11,7 +11,7 @@ syntax keyword rspecGroupMethods context describe example it its let it_should_b
 highlight link rspecGroupMethods Statement
 
 syntax keyword rspecBeforeAndAfter after after_suite_parts append_after append_before before before_suite_parts prepend_after prepend_before around
-highlight link rspecBeforeAndAfter Statement
+highlight link rspecBeforeAndAfter Identifier
 
 syntax keyword rspecMocks double mock stub stub_chain
 highlight link rspecMocks Constant
