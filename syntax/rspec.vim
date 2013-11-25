@@ -8,10 +8,10 @@ runtime! syntax/ruby.vim
 unlet! b:current_syntax
 
 syntax keyword rspecGroupMethods context describe example it its let it_should_behave_like shared_examples shared_examples_for subject it_behaves_like pending specify When Then Given Invariant feature scenario given
-highlight link rspecGroupMethods Type
+highlight link rspecGroupMethods Statement
 
 syntax keyword rspecBeforeAndAfter after after_suite_parts append_after append_before before before_suite_parts prepend_after prepend_before around
-highlight link rspecBeforeAndAfter Statement
+highlight link rspecBeforeAndAfter Identifier
 
 syntax keyword rspecMocks double mock stub stub_chain
 highlight link rspecMocks Constant
