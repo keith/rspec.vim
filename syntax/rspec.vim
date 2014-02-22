@@ -23,6 +23,9 @@ syntax keyword rspecKeywords should should_not should_not_receive should_receive
 highlight link rspecKeywords Constant
 
 syntax keyword rspecMatchers be change eql equal exist expect expect_any_instance_of allow allow_any_instance_of receive have have_at_least have_at_most have_exactly include match matcher raise_error raise_exception respond_to satisfy throw_symbol to to_not not_to when wrap_expectation
+
+" shoulda matchers
+syntax keyword rspecMatchers allow_mass_assignment_of allow_value ensure_exclusion_of ensure_length_of have_secure_password validate_absence_of validate_acceptance_of validate_confirmation_of validate_numericality_of validate_presence_of validate_uniqueness_of
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 highlight link rspecMatchers Function
 
