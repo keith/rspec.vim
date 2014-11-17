@@ -7,6 +7,8 @@
 runtime! syntax/ruby.vim
 unlet! b:current_syntax
 
+setlocal commentstring=#\ %s
+
 syntax keyword rspecGroupMethods context describe example it its let let\! it_should_behave_like shared_examples shared_examples_for subject it_behaves_like pending skip specify When Then Given Invariant feature scenario given given\!
 highlight link rspecGroupMethods Statement
 
