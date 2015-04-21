@@ -15,7 +15,7 @@ highlight link rspecGroupMethods Statement
 syntax keyword rspecBeforeAndAfter after after_suite_parts append_after append_before before before_suite_parts prepend_after prepend_before around
 highlight link rspecBeforeAndAfter Identifier
 
-syntax keyword rspecMocks double instance_double mock stub stub_chain
+syntax keyword rspecMocks double instance_double mock stub stub_chain spy instance_spy
 highlight link rspecMocks Constant
 
 syntax keyword rspecMockMethods and_raise and_return and_throw and_yield build_child called_max_times expected_args invoke matches
