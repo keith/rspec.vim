@@ -4,7 +4,7 @@
 "
 "
 
-runtime! syntax/ruby.vim
+let b:old_syntax = b:current_syntax
 unlet! b:current_syntax
 
 setlocal commentstring=#\ %s
@@ -37,4 +37,5 @@ highlight link rspecMatchers Function
 syntax keyword rspecMessageExpectation advise any_args any_number_of_times anything at_least at_most exactly expected_messages_received generate_error hash_including hash_not_including ignoring_args instance_of matches_at_least_count matches_at_most_count matches_exact_count matches_name_but_not_args negative_expectation_for never no_args once ordered similar_messages times twice verify_messages_received with
 highlight link rspecMessageExpectation Function
 
-let b:current_syntax = 'rspec'
+let b:current_syntax = b:old_syntax . '.rspec'
+unlet b:old_syntax

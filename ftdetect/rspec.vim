@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
+autocmd BufNewFile,BufRead *_spec.rb let &l:syntax = &syntax . '.rspec'
