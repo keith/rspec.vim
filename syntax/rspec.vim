@@ -9,7 +9,7 @@ unlet! b:current_syntax
 
 setlocal commentstring=#\ %s
 
-syntax keyword rspecGroupMethods context describe example it its let let\! it_should_behave_like shared_examples shared_examples_for subject it_behaves_like pending skip specify When Then Given Invariant feature scenario given given\!
+syntax keyword rspecGroupMethods context describe example it its let let\! it_should_behave_like shared_examples shared_examples_for subject it_behaves_like pending skip specify When Then Given Invariant feature scenario given given\! include_context include_examples
 highlight link rspecGroupMethods Statement
 
 syntax keyword rspecBeforeAndAfter after after_suite_parts append_after append_before before before_suite_parts prepend_after prepend_before around
