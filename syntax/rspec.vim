@@ -14,6 +14,12 @@ syntax keyword rspecGroupMethods
       \ describe
       \ example
       \ feature
+      \ fcontext
+      \ fdescribe
+      \ fexample
+      \ fit
+      \ focus
+      \ fspecify
       \ Given
       \ given\!
       \ include_context
