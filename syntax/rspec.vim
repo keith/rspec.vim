@@ -62,6 +62,7 @@ syntax keyword rspecMocks
       \ stub_chain
 
 syntax keyword rspecMockMethods
+      \ and_call_original
       \ and_raise
       \ and_return
       \ and_throw
