@@ -173,6 +173,7 @@ syntax keyword rspecMessageExpectation
       \ with
 
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
+syntax match rspecGroupMethods /\.describe/
 
 highlight link rspecGroupMethods Statement
 highlight link rspecBeforeAndAfter Identifier
