@@ -108,6 +108,7 @@ syntax keyword rspecMatchers
       \ raise_exception
       \ receive
       \ receive_messages
+      \ receive_message_chain
       \ respond_to
       \ satisfy
       \ throw_symbol
