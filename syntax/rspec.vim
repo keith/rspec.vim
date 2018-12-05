@@ -60,6 +60,7 @@ syntax keyword rspecMocks
       \ spy
       \ stub
       \ stub_chain
+      \ stub_const
 
 syntax keyword rspecMockMethods
       \ and_call_original
