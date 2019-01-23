@@ -10,6 +10,7 @@ unlet! b:current_syntax
 setlocal commentstring=#\ %s
 
 syntax keyword rspecGroupMethods
+      \ aggregate_failures
       \ context
       \ describe
       \ example
