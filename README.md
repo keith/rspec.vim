@@ -9,8 +9,13 @@ If you don't have a preferred installation method check out
 
 ## Usage
 
-By default this syntax is used with all `*_spec.rb` files. If you don't
-follow this pattern use something like:
+By default this syntax is used with all files matching one of these patterns:
+
+- `*_spec.rb`
+- `*_shared_examples.rb`
+- `*_shared_context.rb`
+
+If you don't follow this pattern use something like:
 
 ```vim
 autocmd BufNewFile,BufRead *_foo.rb set syntax=rspec
